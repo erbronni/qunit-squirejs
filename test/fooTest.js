@@ -1,5 +1,5 @@
 // testFoo.js
-define(['Squire', 'foo'], function (Squire, foo) {
+define(['qunit', 'Squire', 'foo'], function (QUnit, Squire, foo) {
 
   'use strict';
 
