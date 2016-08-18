@@ -2,7 +2,7 @@ QUnit/RequireJS/SquireJS Example
 ================================
 
 This is a mininal example on using Require.js and Squire.js with QUnit.  It is not
-intended to be an exhaustive example nor shold this project be used as an 
+intended to be an exhaustive example nor should this project be used as an 
 example of how to configure a project.  The bare minimum was done to get the
 tests working and validate the an answer for the answer to
 [Reset module in unit tests](http://stackoverflow.com/questions/34888574/reset-module-in-unit-tests/34891840) 
@@ -12,11 +12,11 @@ on [Stackoverflow](http://stackoverflow.com/).
 Building the Project
 -------------------
 The basic project build commands are:
-
+```
   npm install
   bower install
   grunt 
-  
+```
 The application page is ```app/index.html```, and the QUnit test page is 
 ```test/index.html```.  Both pages can be run directly from their location. All
 file references are relative.
